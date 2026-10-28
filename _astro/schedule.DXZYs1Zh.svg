@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect class="fill-surface" x="5" y="11" width="42" height="45" rx="5"/>
+  <path class="fill-tint" d="M5 24v-8a5 5 0 0 1 5-5h32a5 5 0 0 1 5 5v8z"/>
+  <path d="M16 6v9M36 6v9"/>
+  <g fill="currentColor" stroke="none"><circle cx="13" cy="33" r="2"/><circle cx="21" cy="33" r="2"/><circle cx="29" cy="33" r="2"/><circle cx="13" cy="41" r="2"/><circle cx="21" cy="41" r="2"/><circle cx="13" cy="49" r="2"/><circle cx="21" cy="49" r="2"/><circle cx="29" cy="41" r="3.6"/></g>
+  <path class="fill-tint" d="M48 59c-6-6.6-11-12-11-18.5a11 11 0 0 1 22 0C59 47 54 52.4 48 59z"/>
+  <circle class="fill-surface" cx="48" cy="40.5" r="4"/>
+</svg>

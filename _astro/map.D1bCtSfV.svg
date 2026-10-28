@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path class="fill-surface" d="M5 15l18-6 18 6 18-6v40l-18 6-18-6-18 6z"/>
+  <path class="fill-tint" d="M23 9l18 6v40l-18-6z"/>
+  <path d="M12 46c5-1 7-7 13-7s9 4 15 0" stroke-dasharray="3.5 4.5"/>
+  <circle class="fill-surface" cx="11" cy="46" r="2.6"/>
+  <path d="M46 40c-5-5.5-8.5-9.5-8.5-14a8.5 8.5 0 0 1 17 0c0 4.5-3.5 8.5-8.5 14z" fill="currentColor"/>
+  <circle class="fill-surface" cx="46" cy="26" r="3.2" stroke="none"/>
+</svg>

@@ -1,0 +1,36 @@
+# ビジョンエッジ コーポレートサイト（XSERVER）
+# 前段に Cloudflare があるので、HTTPS の判定には X-Forwarded-Proto も見る（転送のループを防ぐため）
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # www なしに統一する
+  RewriteCond %{HTTP_HOST} ^www\.visionedge\.co\.jp$ [NC]
+  RewriteRule ^(.*)$ https://visionedge.co.jp/$1 [R=301,L]
+
+  # http を https に転送する
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+
+# セキュリティ用のヘッダー。Content-Security-Policy は各ページの meta タグで設定している（astro.config.mjs）
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+  Header always set Strict-Transport-Security "max-age=31536000"
+</IfModule>
+
+# キャッシュ：/_astro/ のファイルは名前にハッシュが付くので長く、HTML は毎回確認させる
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+</IfModule>

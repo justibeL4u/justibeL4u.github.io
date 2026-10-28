@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 156" width="360" height="156" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M14 148h146M204 148h144"/>
+  <rect class="fill-surface" x="64" y="30" width="78" height="118" rx="7"/>
+  <rect class="fill-tint" x="75" y="40" width="56" height="14" rx="3.5"/>
+  <rect class="fill-tint" x="75" y="60" width="56" height="14" rx="3.5"/>
+  <rect class="fill-tint" x="75" y="80" width="56" height="14" rx="3.5"/>
+  <path d="M83 47h18M83 67h18M83 87h18"/>
+  <g fill="currentColor" stroke="none"><circle cx="122" cy="47" r="2.2"/><circle cx="122" cy="67" r="2.2"/><circle cx="122" cy="87" r="2.2"/></g>
+  <rect class="fill-tint" x="46" y="101" width="35" height="41" rx="3"/>
+  <path class="fill-surface" d="M41 108h22l10 10v27a3 3 0 0 1-3 3H41a3 3 0 0 1-3-3v-34a3 3 0 0 1 3-3z"/>
+  <path class="fill-tint" d="M63 108v7a3 3 0 0 0 3 3h7z"/>
+  <path d="M44 126h18M44 133h22M44 140h13"/>
+  <path d="M150 46C168 12 222 8 246 58" stroke-dasharray="3.5 4.35"/>
+  <path d="M247.9 49.2l-1.9 8.8-8.1-4"/>
+  <g transform="rotate(10 196 21)">
+    <path class="fill-surface" d="M187 7h13l7 7v19a2 2 0 0 1-2 2h-18a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"/>
+    <path class="fill-tint" d="M200 7v5a2 2 0 0 0 2 2h5z"/>
+    <path d="M189.5 21h11M189.5 27h14"/>
+  </g>
+  <rect class="fill-surface" x="228" y="96" width="100" height="52"/>
+  <path class="fill-tint" d="M216 100l62-44 62 44z"/>
+  <circle class="fill-surface" cx="278" cy="84" r="6"/>
+  <rect class="fill-tint" x="250" y="110" width="56" height="38" rx="2"/>
+  <rect class="fill-surface" x="262" y="117" width="32" height="31" rx="3"/>
+  <path d="M268 126h13M268 136h13"/>
+  <g fill="currentColor" stroke="none"><circle cx="287" cy="126" r="1.8"/><circle cx="287" cy="136" r="1.8"/></g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="24 22 312 178" width="312" height="178" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M60 160v36M300 160v36M30 196h300"/>
+  <path class="fill-tint" d="M40 154v-20c0-16 16-26 36-26s36 10 36 26v20z"/>
+  <rect class="fill-tint" x="278" y="98" width="12" height="12" rx="2"/>
+  <path class="fill-surface" d="M248 154v-20c0-16 16-26 36-26s36 10 36 26v20z"/>
+  <rect class="fill-tint" x="34" y="150" width="292" height="10" rx="5"/>
+  <rect class="fill-surface" x="186" y="143" width="50" height="7" rx="2.5"/>
+  <rect class="fill-tint" x="187" y="100" width="7" height="48" rx="3.5" transform="rotate(-27 190.5 146)"/>
+  <rect class="fill-tint" x="94" y="139" width="38" height="11" rx="5.5"/>
+  <rect class="fill-surface" x="226" y="132" width="40" height="11" rx="5.5"/>
+  <circle class="fill-surface" cx="134" cy="144.5" r="5"/>
+  <circle class="fill-surface" cx="225" cy="137.5" r="5"/>
+  <circle class="fill-surface" cx="76" cy="88" r="17"/>
+  <path d="M284 70v-7"/>
+  <circle class="fill-tint" cx="284" cy="59" r="3.5"/>
+  <rect class="fill-surface" x="266" y="70" width="36" height="32" rx="10"/>
+  <path d="M271 92h8l3.6-7h-8zM285 92h8l3.6-7h-8z" fill="currentColor" stroke="none"/>
+  <path class="fill-surface" d="M96 28h28a10 10 0 0 1 10 10v10a10 10 0 0 1-10 10h-18l-12 10 2-10a10 10 0 0 1-10-10V38a10 10 0 0 1 10-10z"/>
+  <path d="M103 43l5 5 10-10"/>
+  <path d="M141.4 53.2A42 34 0 0 1 218.4 45M218.3 37l.1 8-7.5-2.7M222.6 70.8A42 34 0 0 1 145.6 79M145.7 87l-.1-8 7.5 2.7"/>
+  <path class="fill-surface" d="M166 35h24l11 11v40a3 3 0 0 1-3 3h-32a3 3 0 0 1-3-3V38a3 3 0 0 1 3-3z"/>
+  <path class="fill-tint" d="M190 35v8a3 3 0 0 0 3 3h8z"/>
+  <rect x="169" y="42" width="14" height="4" rx="1.5" fill="currentColor" stroke="none"/>
+  <path d="M169 55h25M169 62h27M169 69h19M169 76h23"/>
+</svg>

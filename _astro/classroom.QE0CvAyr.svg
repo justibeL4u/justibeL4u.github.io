@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="24 16 288 188" width="288" height="188" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect class="fill-surface" x="44" y="22" width="166" height="96" rx="6"/>
+  <rect class="fill-tint" x="72" y="118" width="110" height="7" rx="3.5"/>
+  <path d="M117 40v-7M137 40v-7M127 54v12M79 66h96M79 66v8M127 66v8M175 66v8"/>
+  <rect class="fill-tint" x="110" y="40" width="34" height="14" rx="4"/>
+  <g fill="currentColor" stroke="none"><circle cx="119" cy="47" r="1.8"/><circle cx="127" cy="47" r="1.8"/><circle cx="135" cy="47" r="1.8"/></g>
+  <rect class="fill-tint" x="67" y="74" width="24" height="16" rx="2"/>
+  <rect class="fill-tint" x="115" y="74" width="24" height="16" rx="2"/>
+  <rect class="fill-tint" x="163" y="74" width="24" height="16" rx="2"/>
+  <path d="M73 97h12M121 97h12M169 97h12"/>
+  <path class="fill-tint" d="M236 156v-30c0-16 14-26 32-26s32 10 32 26v30z"/>
+  <circle class="fill-surface" cx="268" cy="78" r="16"/>
+  <path d="M233 114l-35-27"/>
+  <circle class="fill-surface" cx="236" cy="116" r="5"/>
+  <rect class="fill-surface" x="226" y="152" width="84" height="46" rx="4"/>
+  <rect class="fill-tint" x="246" y="138" width="44" height="14" rx="4"/>
+  <path d="M256 138v-8M280 138v-8"/>
+  <g fill="currentColor" stroke="none"><circle cx="258" cy="145" r="1.8"/><circle cx="266" cy="145" r="1.8"/><circle cx="274" cy="145" r="1.8"/></g>
+  <path class="fill-tint" d="M36 204v-14c0-14 14-22 32-22s32 8 32 22v14z"/>
+  <circle class="fill-surface" cx="68" cy="150" r="15"/>
+  <path class="fill-surface" d="M124 204v-10c0-14 14-22 32-22s32 8 32 22v10z"/>
+  <circle class="fill-surface" cx="156" cy="155" r="15"/>
+</svg>
